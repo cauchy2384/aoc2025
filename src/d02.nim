@@ -1,4 +1,4 @@
-import std/[strutils, sequtils, math, sugar, options]
+import std/[strutils, sequtils, math, sugar]
 
 proc check(s: string, p: int): bool =
     if s.len mod p > 0: return false

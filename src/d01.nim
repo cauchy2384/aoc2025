@@ -1,4 +1,4 @@
-import std/[strutils, sequtils, math]
+import std/[strutils, sequtils]
 
 const CircleSize = 100
 
