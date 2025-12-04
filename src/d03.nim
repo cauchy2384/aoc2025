@@ -1,4 +1,4 @@
-import std/[sequtils, strutils, math, sugar, deques, algorithm]
+import std/[sequtils, strutils, math, sugar]
 
 proc maxJoltage(s: string, digits: int): int64 =
     var stack: seq[char] = @[]
